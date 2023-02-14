@@ -1,0 +1,19 @@
+.Stats__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+.Stats__item {
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 6px;
+  border: 1px solid rgba(173, 204, 204, 0.281);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
